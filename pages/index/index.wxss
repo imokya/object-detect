@@ -1,0 +1,66 @@
+camera {
+  width: 100vw;
+  height: 672px;
+  position: absolute;
+  z-index: 5;
+}
+
+canvas {
+  z-index: 10;
+  position: absolute;
+  border: 2px rgba(255, 255, 255, 0.2) solid;
+  background-color: #000;
+  left: 0;
+  bottom: 0;
+}
+
+.tip {
+  position: absolute;
+  width: 260rpx;
+  height: 70rpx;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 800rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 70rpx;
+}
+
+.scan-box {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: 20;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scan-box .box {
+  width: 100%;
+  height: 1500rpx;
+}
+
+.scan-box .glow {
+  width: 540rpx;
+  height: 34rpx;
+  position: absolute;
+  animation: move 2s linear infinite;
+  animation-direction: alternate;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(-260rpx);
+  }
+  100% {
+    transform: translateY(260rpx);
+  }
+}
+

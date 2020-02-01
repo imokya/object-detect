@@ -1,0 +1,9 @@
+<view class="container">
+  <camera resolution="low" device-position="back" frame-size="small" style="height:{{h}}px;"></camera>
+  <canvas canvas-id="canvas" style="width:{{w}}px;height:{{h}}px;display:{{show?'block':'none'}}"></canvas>
+  <cover-view class="scan-box">
+    <cover-image class="box" mode="center" src="../../assets/box.png"></cover-image>
+    <cover-image class="glow" mode="center" src="../../assets/glow.png"></cover-image>
+    <cover-view class="tip" style="display:{{showTip?'block':'none'}}">识别中...</cover-view>
+  </cover-view>
+</view>

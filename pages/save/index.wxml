@@ -1,0 +1,4 @@
+<view class="container">
+  <image mode="widthFix" data-url="/assets/image.png" src="../../assets/image.png" bindlongpress="saveImage"></image>
+  <text>长按图片保存至相册</text>
+</view>

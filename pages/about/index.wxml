@@ -1,0 +1,29 @@
+<view class="container">
+  <view class="page__bd">
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_access">
+        <view class="weui-cell__bd">https://github.com/imokya/object-detect</view>
+        <view class="weui-cell__ft" style="font-size: 0">
+          <view style="display: inline-block;vertical-align:middle; font-size: 17px;">源码</view>
+        </view>
+      </view>
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_access">
+        <view class="weui-cell__bd">https://dev.xingway.com/object-detect</view>
+        <view class="weui-cell__ft" style="font-size: 0">
+          <view style="display: inline-block;vertical-align:middle; font-size: 17px;">教程</view>
+        </view>
+      </view>
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_access">
+        <view class="weui-cell__bd">876657294@qq.com</view>
+        <view class="weui-cell__ft" style="font-size: 0">
+          <view style="display: inline-block;vertical-align:middle; font-size: 17px;">联系</view>
+        </view>
+      </view>
+    </view>
+    <view class="weui-cells__title">© 2020 www.xingway.com</view>
+  </view>
+</view>
