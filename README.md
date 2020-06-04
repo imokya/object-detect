@@ -4,4 +4,4 @@
 ## 关于
 [https://dev.xingway.com/object-detect](https://dev.xingway.com/object-detect)
 
-![Image](https://github.com/imokya/object-detect/blob/master/assets/preview.jpg?raw=true)
+![Image](https://raw.githubusercontent.com/imokya/object-detect/master/assets/preview.png)
