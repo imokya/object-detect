@@ -1,8 +1,8 @@
 const INTERVAL = 300
-const API_URL = ''
+const API_URL = 'https://aip.baidubce.com/rpc/2.0/ai_custom/v1/detection/mm_detection'
 const API_AUTH_URL = 'https://aip.baidubce.com/oauth/2.0/token'
-const CLIENT_ID = ''
-const CIENT_SECRET = ''
+const CLIENT_ID = '' //API Key
+const CLIENT_SECRET = '' //Secret Key
 const SCALE = 0.2
 const MAX_COUNT = 2
 

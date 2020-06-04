@@ -5,8 +5,6 @@
     "pages/result/index",
     "pages/save/index",
     "pages/about/index"
-    
-    
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -38,6 +36,7 @@
       }
     ]
   },
+  "darkmode": true,
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
